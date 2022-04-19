@@ -1,5 +1,8 @@
 *
-!.gitignore
-!i3
-!i3blocks
+!/.gitignore
+!/i3/
+!/i3/*
+/i3/base16
+!/i3blocks/
+!/i3blocks/*
 
