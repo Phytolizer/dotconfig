@@ -1,0 +1,19 @@
+{
+	"version": 3,
+	"configurePresets": [
+		{
+			"name": "main",
+			"displayName": "Main",
+			"binaryDir": "build",
+			"generator": "Unix Makefiles",
+			"cacheVariables": {
+				"CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+				"CMAKE_BUILD_TYPE": "Release"
+			}
+		}
+	],
+	"buildPresets": [
+		{"name": "main", "displayName": "Main", "configurePreset": "main"}
+	]
+}
+
