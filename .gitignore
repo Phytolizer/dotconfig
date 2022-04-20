@@ -10,4 +10,7 @@
 !/picom/*
 !/redshift/
 !/redshift/*
+!/nvim/
+!/nvim/*
+!/nvim/**/*
 
