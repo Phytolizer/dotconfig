@@ -10,7 +10,7 @@ return require("packer").startup(function()
 		"norcalli/nvim-base16.lua",
 		config = function()
 			local base16 = require("base16")
-			base16(base16.themes[vim.env.BASE16_THEME or "black-metal"], true)
+			base16(base16.themes[vim.env.BASE16_THEME or "dracula"], true)
 		end,
 	})
 	use({
@@ -210,4 +210,5 @@ return require("packer").startup(function()
 			})
 		end,
 	})
+	use("kyazdani42/nvim-web-devicons")
 end)
