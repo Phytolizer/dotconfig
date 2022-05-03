@@ -21,7 +21,7 @@ call minpac#add('ron-rs/ron.vim')
 call minpac#add('farmergreg/vim-lastplace')
 
 call minpac#add('neovim/nvim-lspconfig')
-call minpac#add('nvim-treesitter/nvim-treesitter', {'rev': 'bc25a6a5c4fd659bbf78ba0a2442ecf14eb00398'})
+call minpac#add('nvim-treesitter/nvim-treesitter')
 call minpac#add('hrsh7th/cmp-nvim-lsp')
 call minpac#add('hrsh7th/cmp-buffer')
 call minpac#add('hrsh7th/cmp-path')

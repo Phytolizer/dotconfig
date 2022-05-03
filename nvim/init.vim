@@ -22,15 +22,7 @@ autocmd BufRead,BufNewFile .clang-format set ft=yaml
 autocmd BufRead,BufNewFile .clang-tidy set ft=yaml
 autocmd BufRead,BufNewFile .clangd set ft=yaml
 
-function! PackInit() abort
-    packadd minpac
-
-    runtime plugins.vim
-endfunction
-
-command! PackUpdate source $MYVIMRC | call PackInit() | call minpac#update()
-command! PackClean  source $MYVIMRC | call PackInit() | call minpac#clean()
-command! PackStatus packadd minpac | call minpac#status()
+runtime pack.vim
 
 let g:airline_theme = 'base16_ocean'
 if !exists('g:airline_symbols')
